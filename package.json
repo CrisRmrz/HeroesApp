@@ -1,12 +1,12 @@
 {
-  "homepage":"https://CrisRmrz.github.io/HeroesApp",
+  "homepage":"https://crisrmrz.github.io/HeroesApp",
   "name": "heroesapp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "debloy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
